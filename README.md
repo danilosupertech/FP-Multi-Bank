@@ -1,4 +1,4 @@
-# Financial Parser DSPy — AutoDetect
+# Financial Parser — Multi-Bank
 
 Python project for importing bank statements in PDF format, categorizing transactions, preserving learned rules, and analyzing data through a Streamlit dashboard.
 
