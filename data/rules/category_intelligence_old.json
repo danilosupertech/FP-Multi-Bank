@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "purpose": "Memoria de classificacao para orientar agentes locais/LLM na categorizacao financeira.",
+  "principles": [
+    "Prefira categorias existentes antes de criar categorias novas.",
+    "Se a categoria atual estiver correta, mantenha e explique o motivo.",
+    "Use o merchant como sinal principal quando ele representar uma empresa conhecida.",
+    "Use a descricao completa quando o merchant estiver truncado ou generico.",
+    "Nao mude uma categoria apenas por valor baixo ou alto; valor ajuda a validar, mas nao define a categoria sozinho.",
+    "Quando varias transacoes do mesmo merchant tiverem a mesma natureza, trate como regra reutilizavel."
+  ],
+  "category_guidance": {
+    "Supermercado": [
+      "Supermercados, minimercados, mercearias e lojas alimentares recorrentes.",
+      "Exemplos: Continente, Pingo Doce, Lidl, Aldi, Mercadona, Auchan, A Super 2000."
+    ],
+    "Restaurantes e Cafés": [
+      "Restaurantes, cafes, pastelarias, fast food e consumo pronto.",
+      "Exemplos: Burger King, McDonald's, restaurantes locais, cafeterias."
+    ],
+    "Transportes": [
+      "Mobilidade, apps de transporte, transportes publicos, viagens curtas e estacionamento.",
+      "Exemplos: Bolt, Uber, metro, autocarro, CP, estacionamento."
+    ],
+    "Combustível": [
+      "Postos de combustivel, gasolina, gasoleo e carregamentos diretamente ligados a abastecimento."
+    ],
+    "Saúde": [
+      "Farmacias, consultas, hospitais, clinicas, exames e produtos de saude."
+    ],
+    "Casa": [
+      "Itens para casa, manutencao domestica, utilidades e lojas de variedades quando o uso principal for lar.",
+      "Exemplos: TEDi pode ser Casa quando a compra for loja de variedades/domestica."
+    ],
+    "Vestuário": [
+      "Roupas, calcados e acessorios pessoais."
+    ],
+    "Google/IA/Youtube": [
+      "Pagamentos Google, YouTube, Google Play, apps, IA e assinaturas digitais relacionadas."
+    ],
+    "Compras Online": [
+      "E-commerce generico quando nao houver categoria mais especifica."
+    ],
+    "Serviços": [
+      "Servicos gerais, intermediadores de pagamento e prestadores sem categoria mais especifica."
+    ],
+    "Impostos e Taxas": [
+      "Pagamentos ao Estado, taxas, impostos, multas e emolumentos."
+    ],
+    "Documentos PT": [
+      "IRN, AIMA/SEF, documentos oficiais, certidoes e renovacoes documentais em Portugal."
+    ],
+    "Turismo": [
+      "Hoteis, alojamento temporario, atividades turisticas e deslocacoes de viagem quando nao forem transporte diario."
+    ],
+    "Educação": [
+      "Cursos, escolas, aulas, instrumentos/aulas de musica e formacao."
+    ]
+  },
+  "merchant_examples": {
+    "A SUPER": "Supermercado",
+    "A SUPER 2000": "Supermercado",
+    "PINGO DOCE": "Supermercado",
+    "CONTINENTE": "Supermercado",
+    "LIDL": "Supermercado",
+    "BOLT": "Transportes",
+    "UBER": "Transportes",
+    "GOOGLE PLAY": "Google/IA/Youtube",
+    "YOUTUBE": "Google/IA/Youtube",
+    "TEDI": "Casa",
+    "BURGER KING": "Restaurantes e Cafés"
+  },
+  "subcategories": {
+    "Supermercado": ["mercearia", "hipermercado", "minimercado"],
+    "Transportes": ["mobilidade app", "transporte publico", "estacionamento"],
+    "Saúde": ["farmacia", "consulta", "exame"],
+    "Casa": ["variedades", "decoracao", "manutencao"],
+    "Google/IA/Youtube": ["app", "assinatura", "conteudo digital"]
+  }
+}

@@ -1,0 +1,1979 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-28T02:57:23",
+  "source_file": "dados_brutos_filtrados (2).csv",
+  "summary": {
+    "rows_analyzed": 953,
+    "unique_merchants": 245,
+    "categories": [
+      "Alimentação",
+      "Alimentação Escolar",
+      "Alimentação Ovos",
+      "Arrendamento",
+      "Automóvel",
+      "Beleza",
+      "Casa",
+      "Combustível",
+      "Compras Online",
+      "Crédito",
+      "Documentos PT",
+      "Educação",
+      "Energia",
+      "Google/IA/Youtube",
+      "Impostos e Taxas",
+      "Medicare",
+      "Outros",
+      "Restaurantes e Cafés",
+      "Saúde",
+      "Seguros",
+      "Serviços",
+      "Supermercado",
+      "Tecnologia",
+      "Telecom",
+      "Transferência",
+      "Transportes",
+      "Turismo",
+      "Vestuário",
+      "Água"
+    ]
+  },
+  "category_guidance": {
+    "Supermercado": {
+      "description": "Compras de alimentos, mercearia, hipermercado, talho/mercado e bens domésticos básicos.",
+      "merchant_examples": [
+        "Continente",
+        "Pingo Doce",
+        "Lidl",
+        "Auchan",
+        "Mercadona",
+        "Minipreço",
+        "Froiz"
+      ],
+      "keywords": [
+        "continente",
+        "pingo doce",
+        "lidl",
+        "auchan",
+        "mercadona",
+        "minipreco",
+        "minipreço",
+        "froiz",
+        "supermercado",
+        "mercado",
+        "mini mercado",
+        "mercearia",
+        "a super"
+      ],
+      "negative_keywords": [
+        "hotel",
+        "restaurante",
+        "farmacia",
+        "wells",
+        "energia"
+      ]
+    },
+    "Restaurantes e Cafés": {
+      "description": "Refeições, cafés, confeitarias, pastelarias, bares, takeaway, fast food e delivery.",
+      "merchant_examples": [
+        "Burger King",
+        "Restaurante Conga",
+        "Confeitaria Tamisa",
+        "Cafe Bom Dia",
+        "Telepizza"
+      ],
+      "keywords": [
+        "restaurant",
+        "restaurante",
+        "cafe",
+        "café",
+        "confeitaria",
+        "pastelaria",
+        "bar",
+        "bk",
+        "burger king",
+        "pizza",
+        "takeaway",
+        "food",
+        "glovo",
+        "uber eats"
+      ],
+      "negative_keywords": [
+        "supermercado",
+        "continente",
+        "pingo doce"
+      ]
+    },
+    "Transportes": {
+      "description": "Transportes públicos, mobilidade, portagens, passes, comboio, metro, autocarro, táxi e apps de mobilidade.",
+      "merchant_examples": [
+        "Bolt",
+        "Uber Trip",
+        "CP",
+        "Metro",
+        "Carris",
+        "Via Verde"
+      ],
+      "keywords": [
+        "bolt",
+        "uber trip",
+        "viaverde",
+        "via verde",
+        "cp",
+        "metro",
+        "carris",
+        "flixbus",
+        "transport",
+        "taxi",
+        "táxi",
+        "comboio",
+        "autocarro",
+        "bus"
+      ],
+      "negative_keywords": [
+        "uber eats"
+      ]
+    },
+    "Telecom": {
+      "description": "Telecomunicações, internet, telefone, televisão e operadores de comunicações.",
+      "merchant_examples": [
+        "MEO",
+        "NOS",
+        "Vodafone"
+      ],
+      "keywords": [
+        "meo",
+        "nos",
+        "vodafone",
+        "telecom",
+        "comun",
+        "internet",
+        "fibra"
+      ],
+      "negative_keywords": [
+        "energia"
+      ]
+    },
+    "Água": {
+      "description": "Serviços de água, saneamento e pagamentos municipais de água.",
+      "merchant_examples": [
+        "CMPEA-Empresa Aguas MU"
+      ],
+      "keywords": [
+        "aguas",
+        "águas",
+        "agua",
+        "água",
+        "cmpea",
+        "saneamento"
+      ],
+      "negative_keywords": []
+    },
+    "Energia": {
+      "description": "Eletricidade, gás e energia doméstica.",
+      "merchant_examples": [
+        "MEO Energia",
+        "EDP",
+        "Galp Energia"
+      ],
+      "keywords": [
+        "energia",
+        "edp",
+        "galp power",
+        "eletricidade",
+        "electricidade",
+        "gas",
+        "gás"
+      ],
+      "negative_keywords": [
+        "combustivel",
+        "combustível"
+      ]
+    },
+    "Combustível": {
+      "description": "Abastecimento de combustível, postos de serviço e carregamentos automóveis.",
+      "merchant_examples": [
+        "Auchan Energy",
+        "Prio",
+        "Galp",
+        "BP"
+      ],
+      "keywords": [
+        "combustivel",
+        "combustível",
+        "posto",
+        "est servico",
+        "est serviço",
+        "energy",
+        "gasolina",
+        "diesel",
+        "bp",
+        "prio",
+        "galp"
+      ],
+      "negative_keywords": [
+        "supermercado",
+        "energia domestica"
+      ]
+    },
+    "Saúde": {
+      "description": "Farmácias, óticas, consultas, medicamentos e despesas de saúde.",
+      "merchant_examples": [
+        "Farmacia",
+        "Wells Saude e Optica",
+        "Medicare"
+      ],
+      "keywords": [
+        "farmacia",
+        "farmácia",
+        "wells",
+        "saude",
+        "saúde",
+        "optica",
+        "ótica",
+        "medicare",
+        "hospital",
+        "clinica",
+        "clínica"
+      ],
+      "negative_keywords": []
+    },
+    "Medicare": {
+      "description": "Pagamentos específicos de plano/seguro Medicare.",
+      "merchant_examples": [
+        "Medicare"
+      ],
+      "keywords": [
+        "medicare"
+      ],
+      "negative_keywords": []
+    },
+    "Compras Online": {
+      "description": "Compras em marketplaces e lojas online generalistas.",
+      "merchant_examples": [
+        "Temu",
+        "AliExpress",
+        "Amazon"
+      ],
+      "keywords": [
+        "temu",
+        "aliexpress",
+        "amazon",
+        "marketplace",
+        "online",
+        "ebay",
+        "shein"
+      ],
+      "negative_keywords": [
+        "openai",
+        "google",
+        "preply"
+      ]
+    },
+    "Google/IA/Youtube": {
+      "description": "Assinaturas e serviços digitais de Google, YouTube, IA e apps.",
+      "merchant_examples": [
+        "Google YouTube Premium",
+        "Google Play",
+        "OpenAI ChatGPT"
+      ],
+      "keywords": [
+        "google",
+        "youtube",
+        "openai",
+        "chatgpt",
+        "play apps",
+        "g.co",
+        "ia"
+      ],
+      "negative_keywords": []
+    },
+    "Educação": {
+      "description": "Cursos, aulas, plataformas educativas, idiomas e formação.",
+      "merchant_examples": [
+        "Preply",
+        "Udemy"
+      ],
+      "keywords": [
+        "preply",
+        "udemy",
+        "curso",
+        "school",
+        "escola",
+        "educacao",
+        "educação",
+        "formacao",
+        "formação"
+      ],
+      "negative_keywords": []
+    },
+    "Vestuário": {
+      "description": "Roupas, calçados, acessórios e lojas de vestuário.",
+      "merchant_examples": [
+        "Pepco",
+        "Loja 94",
+        "Primark",
+        "Zara"
+      ],
+      "keywords": [
+        "pepco",
+        "loja",
+        "moda",
+        "vestuario",
+        "vestuário",
+        "roupa",
+        "calcado",
+        "calçado",
+        "zara",
+        "primark"
+      ],
+      "negative_keywords": [
+        "restaurante",
+        "supermercado"
+      ]
+    },
+    "Casa": {
+      "description": "Itens para casa, bricolage, decoração, utilidades domésticas e manutenção.",
+      "merchant_examples": [
+        "Worten",
+        "Leroy Merlin",
+        "IKEA"
+      ],
+      "keywords": [
+        "casa",
+        "ikea",
+        "leroy",
+        "bricolage",
+        "decor",
+        "equipamentos",
+        "worten"
+      ],
+      "negative_keywords": [
+        "tecnologia"
+      ]
+    },
+    "Tecnologia": {
+      "description": "Eletrónica, software, equipamentos informáticos e serviços tecnológicos.",
+      "merchant_examples": [
+        "Worten",
+        "Apple",
+        "Microsoft"
+      ],
+      "keywords": [
+        "tecnologia",
+        "software",
+        "informatica",
+        "informática",
+        "electronica",
+        "eletrónica",
+        "equipamentos",
+        "worten",
+        "apple",
+        "microsoft"
+      ],
+      "negative_keywords": []
+    },
+    "Serviços": {
+      "description": "Serviços diversos profissionais, administrativos ou recorrentes sem categoria mais específica.",
+      "merchant_examples": [
+        "Pagamentos de serviços diversos"
+      ],
+      "keywords": [
+        "servico",
+        "serviço",
+        "serv",
+        "lda",
+        "unip"
+      ],
+      "negative_keywords": [
+        "agua",
+        "telecom",
+        "energia"
+      ]
+    },
+    "Transferência": {
+      "description": "Transferências entre pessoas, contas ou movimentos bancários identificados como transferência.",
+      "merchant_examples": [
+        "MB WAY",
+        "Transferência",
+        "Dinheiro adicionado"
+      ],
+      "keywords": [
+        "transferencia",
+        "transferência",
+        "mb way",
+        "dinheiro adicionado",
+        "trf",
+        "cortes goncalves"
+      ],
+      "negative_keywords": []
+    },
+    "Crédito": {
+      "description": "Entradas de dinheiro, créditos, reembolsos, salários ou devoluções.",
+      "merchant_examples": [
+        "Dinheiro adicionado",
+        "Crédito bancário"
+      ],
+      "keywords": [
+        "credito",
+        "crédito",
+        "reembolso",
+        "dinheiro adicionado",
+        "vencimento",
+        "salario",
+        "salário"
+      ],
+      "negative_keywords": []
+    },
+    "Impostos e Taxas": {
+      "description": "Impostos, taxas, finanças, AT, Segurança Social e encargos públicos.",
+      "merchant_examples": [
+        "Autoridade Tributária",
+        "Finanças"
+      ],
+      "keywords": [
+        "imposto",
+        "taxa",
+        "financas",
+        "finanças",
+        "autoridade tributaria",
+        "at ",
+        "seguranca social",
+        "segurança social"
+      ],
+      "negative_keywords": []
+    },
+    "Documentos PT": {
+      "description": "Pagamentos de documentação, identificação, IMT, conservatórias e serviços públicos portugueses.",
+      "merchant_examples": [
+        "Instituto M T Terrestr",
+        "IRN"
+      ],
+      "keywords": [
+        "instituto m t terrestr",
+        "imt",
+        "irn",
+        "documento",
+        "cartao cidadao",
+        "cartão cidadão",
+        "conservatoria",
+        "conservatória"
+      ],
+      "negative_keywords": []
+    },
+    "Seguros": {
+      "description": "Seguros automóvel, saúde, casa, vida e seguradoras.",
+      "merchant_examples": [
+        "Seguro"
+      ],
+      "keywords": [
+        "seguro",
+        "seguros",
+        "allianz",
+        "fidelidade",
+        "ok teleseguros",
+        "tranquilidade"
+      ],
+      "negative_keywords": []
+    },
+    "Automóvel": {
+      "description": "Manutenção, inspeção, peças, estacionamento e despesas relacionadas a automóvel fora combustível/portagens.",
+      "merchant_examples": [
+        "Oficina",
+        "Centro inspeção"
+      ],
+      "keywords": [
+        "automovel",
+        "automóvel",
+        "auto",
+        "oficina",
+        "pecas",
+        "peças",
+        "inspecao",
+        "inspeção",
+        "estacionamento"
+      ],
+      "negative_keywords": [
+        "viaverde",
+        "combustivel"
+      ]
+    },
+    "Beleza": {
+      "description": "Cabeleireiro, estética, cosméticos e cuidados pessoais.",
+      "merchant_examples": [
+        "Salão",
+        "Barbearia"
+      ],
+      "keywords": [
+        "beleza",
+        "cabeleireiro",
+        "barbearia",
+        "estetica",
+        "estética",
+        "cosmetico",
+        "cosmético"
+      ],
+      "negative_keywords": []
+    },
+    "Turismo": {
+      "description": "Hotelaria, alojamento, viagens, atrações turísticas e reservas.",
+      "merchant_examples": [
+        "Hotel",
+        "Booking",
+        "Airbnb"
+      ],
+      "keywords": [
+        "hotel",
+        "booking",
+        "airbnb",
+        "turismo",
+        "travel",
+        "viagem",
+        "alojamento"
+      ],
+      "negative_keywords": []
+    },
+    "Arrendamento": {
+      "description": "Rendas, aluguer/arrendamento e pagamentos de habitação.",
+      "merchant_examples": [
+        "Arrendamento"
+      ],
+      "keywords": [
+        "arrendamento",
+        "renda",
+        "aluguer",
+        "senhorio"
+      ],
+      "negative_keywords": []
+    },
+    "Alimentação": {
+      "description": "Alimentos específicos ou produtores locais não classificados como supermercado/restaurante.",
+      "merchant_examples": [
+        "Produtores locais"
+      ],
+      "keywords": [
+        "alimentacao",
+        "alimentação",
+        "alimentos",
+        "massas",
+        "temperos"
+      ],
+      "negative_keywords": [
+        "restaurante",
+        "supermercado"
+      ]
+    },
+    "Alimentação Ovos": {
+      "description": "Compras recorrentes de ovos/produtor específico de ovos.",
+      "merchant_examples": [
+        "Paulo Alexandre Antunes Pereira"
+      ],
+      "keywords": [
+        "ovos",
+        "paulo alexandre antunes pereira"
+      ],
+      "negative_keywords": []
+    },
+    "Alimentação Escolar": {
+      "description": "Pagamentos de refeições escolares ou cantina escolar.",
+      "merchant_examples": [
+        "Alimentação Escolar"
+      ],
+      "keywords": [
+        "escolar",
+        "cantina",
+        "refeicao escolar",
+        "refeição escolar"
+      ],
+      "negative_keywords": []
+    },
+    "Outros": {
+      "description": "Lançamentos sem evidência suficiente para uma categoria mais específica.",
+      "merchant_examples": [],
+      "keywords": [
+        "outros",
+        "diversos"
+      ],
+      "negative_keywords": []
+    }
+  },
+  "merchant_overrides": {
+    "A FLORINDO CRUZ CIA": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "A SUPER SAO COSME": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: a super"
+    },
+    "A SUPER SAO COSME BRA": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: a super"
+    },
+    "A SUPER VALE DE SA": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: a super"
+    },
+    "A SUPER VALE DE SAO C": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: a super"
+    },
+    "ACTION VILA NOVA DE": {
+      "category": "Casa",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Casa'. Há 1 lançamento(s) revisado(s)."
+    },
+    "ALAMEDA SHOPPING": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "ALIEXPRESS": {
+      "category": "Compras Online",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: aliexpress"
+    },
+    "ALIEXPRESS LONDON": {
+      "category": "Compras Online",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: aliexpress"
+    },
+    "ALIEXPRESS.COM": {
+      "category": "Compras Online",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: aliexpress"
+    },
+    "ALTICE PAY S.A": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Outros'. Há 2 lançamento(s) revisado(s)."
+    },
+    "ANA BELA BRANDAO FREIRE FALCAO RAMOS DOS": {
+      "category": "Arrendamento",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Arrendamento'. Há 1 lançamento(s) revisado(s)."
+    },
+    "ANTIGO": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "ASSOCIACAO PORTUGAL": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "AUCHAN": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: auchan"
+    },
+    "AUCHAN ENERGY SA": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: auchan"
+    },
+    "AUCHAN LE A": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: auchan"
+    },
+    "AUCHAN RIO TIN": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: auchan"
+    },
+    "AUTO ARCA DE AGUA": {
+      "category": "Água",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Água'. Há 1 lançamento(s) revisado(s)."
+    },
+    "AVAST ADP2111168274 PRAGUE 4": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "AVAST AVAP1683627950 PRAGUE 4": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "BABBEL.COM BERLIN": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "BK15303 ALAMEDA SHOP": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bk"
+    },
+    "BK16675-CC MAR LECA PAL": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bk"
+    },
+    "BK27601- NORTE": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bk"
+    },
+    "BK30281- FABRICA DO": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bk"
+    },
+    "BK31983 EMBAIXADOR": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bk"
+    },
+    "BK32794 CC TRINITY": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bk"
+    },
+    "BOLT.EU TALLINN": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bolt"
+    },
+    "BOLT.EU/O/ TALLINN": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bolt"
+    },
+    "BOLT.EUO2605050823 TALLINN": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bolt"
+    },
+    "BOLT.EUO2605051056 TALLINN": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bolt"
+    },
+    "BOLT.EUO2605110511 TALLINN": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bolt"
+    },
+    "BOLT.EUO2605211025 TALLINN": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: bolt"
+    },
+    "BRENDAN SNYDER UNIP LDA": {
+      "category": "Educação",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 4/4 lançamento(s) em 'Educação'. Há 4 lançamento(s) revisado(s)."
+    },
+    "C MARA MUNICIPAL DO PO": {
+      "category": "Alimentação Escolar",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 3/3 lançamento(s) em 'Alimentação Escolar'."
+    },
+    "CAFE BOM DIA": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: cafe"
+    },
+    "CAFE KIOSKE": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: cafe"
+    },
+    "CAFE METRO": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: cafe"
+    },
+    "CAMARA MUNICIPAL DO PO": {
+      "category": "Alimentação Escolar",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 3/3 lançamento(s) em 'Alimentação Escolar'. Há 3 lançamento(s) revisado(s)."
+    },
+    "CAPO LOUNGE": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "CBD SA DA BANDEIRA": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Outros'. Há 2 lançamento(s) revisado(s)."
+    },
+    "CELEIRO VITA ANTAS": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Saúde'. Há 1 lançamento(s) revisado(s)."
+    },
+    "CLINE BOT INC CLINE.BOT": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "CMPEA-EMPRESA AGUAS MU": {
+      "category": "Água",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: cmpea, aguas"
+    },
+    "COLISEU DO": {
+      "category": "Turismo",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Turismo'. Há 1 lançamento(s) revisado(s)."
+    },
+    "CONFEITARIA OPORTO": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: confeitaria"
+    },
+    "CONFEITARIA PRIMAZIA": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: confeitaria"
+    },
+    "CONFEITARIA TAMISA": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: confeitaria"
+    },
+    "CONTIN BOM DIA N SHO SENHORA DA": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "CONTINENTE": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: continente"
+    },
+    "CONTINENTE ANTAS": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: continente"
+    },
+    "CONTINENTE BOM DIA": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: continente"
+    },
+    "CONTINENTE L I S B O A": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: continente"
+    },
+    "CONTINENTE SANTA MARINHA": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: continente"
+    },
+    "CORTES GONCALVES LEILA MARIA": {
+      "category": "Crédito",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Crédito'. Há 2 lançamento(s) revisado(s)."
+    },
+    "CP 127 COIMBROES VILA NOVA DE": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "CREPERIA GELADARIA DOU": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "CREPERIA GELADARIA DOURO": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'."
+    },
+    "CRISLAINE FARIA MEIRELES": {
+      "category": "Crédito",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 12/12 lançamento(s) em 'Crédito'."
+    },
+    "DECATHLON ORTL": {
+      "category": "Vestuário",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Vestuário'. Há 1 lançamento(s) revisado(s)."
+    },
+    "DECATHLON ORTLPOR": {
+      "category": "Vestuário",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Vestuário'. Há 2 lançamento(s) revisado(s)."
+    },
+    "DGAJ": {
+      "category": "Documentos PT",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Documentos PT'."
+    },
+    "DHAKER HASSINE": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Transferência'."
+    },
+    "DINHEIRO ADICIONADO": {
+      "category": "Transferência",
+      "confidence": "medium",
+      "reason": "Regra por termo no estabelecimento: dinheiro adicionado"
+    },
+    "DIOGO FERREIRA DUARTE PEREIRA": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "DIVAN": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 3/3 lançamento(s) em 'Restaurantes e Cafés'. Há 2 lançamento(s) revisado(s)."
+    },
+    "DON PEPE - TAQUERIA GER": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "DRA ROSA ALICE NOGUEIRA DOS SANT": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Transferência'."
+    },
+    "E UM RESTAURANTE": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: restaurante"
+    },
+    "ENCOUNTER ENGLISH": {
+      "category": "Educação",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Educação'. Há 2 lançamento(s) revisado(s)."
+    },
+    "ES GAIA VILA D ESTE V. N": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "ESCOLA DE INGLES": {
+      "category": "Educação",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Educação'. Há 1 lançamento(s) revisado(s)."
+    },
+    "ESMERALDA CRISTINA S C TEIXEIRA R": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Transferência'."
+    },
+    "EST SERVICO AUCHAN ENERGY SA RIO TI": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: auchan"
+    },
+    "EST SERVICO AUCHAN II": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: auchan"
+    },
+    "EST SERVICO BP MEALHADA POENTE": {
+      "category": "Combustível",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: est servico"
+    },
+    "EST SERVICO PETROAZUL COM SERV": {
+      "category": "Combustível",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: est servico"
+    },
+    "EST SERVICO REPSOL E1307 ANTAS": {
+      "category": "Combustível",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: est servico"
+    },
+    "EUPAGO ONDI EUPAGO INST": {
+      "category": "Serviços",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Serviços'. Há 1 lançamento(s) revisado(s)."
+    },
+    "EVENTOS 2 MOREIRA DE CO": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "FAB SANTUARI0 FATIMA - 424 FATI": {
+      "category": "Outros",
+      "confidence": "medium",
+      "reason": "Categoria sugerida pela maioria na planilha: 3/3 lançamento(s) em 'Outros'. Há 3 lançamento(s) revisado(s)."
+    },
+    "FARMACIA": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: farmacia"
+    },
+    "FARMACIA ALIANCA": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: farmacia"
+    },
+    "FARMACIA COSTA": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: farmacia"
+    },
+    "FARMACIA DA CRUZ": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: farmacia"
+    },
+    "FARMACIA FONSECA VAZ": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: farmacia"
+    },
+    "FARMACIA FONSECA VAZPOR": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: farmacia"
+    },
+    "FNAC NORTESHOPPING SENHORA DA HO": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "FREGUESIA PARANHOS": {
+      "category": "Impostos e Taxas",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Impostos e Taxas'. Há 1 lançamento(s) revisado(s)."
+    },
+    "FUNDACAO STA MARIA": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Saúde'. Há 1 lançamento(s) revisado(s)."
+    },
+    "GAB CERT SERV IRN LOBRAGA": {
+      "category": "Documentos PT",
+      "confidence": "medium",
+      "reason": "Regra por termo no estabelecimento: irn"
+    },
+    "GLOVO": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "GOMS CORTES E CORES": {
+      "category": "Beleza",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Beleza'. Há 1 lançamento(s) revisado(s)."
+    },
+    "GOOGLE GOOGLE ONE G.CO /HELPPAY": {
+      "category": "Google/IA/Youtube",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: google"
+    },
+    "GOOGLE GOOGLE ONE IRELAND": {
+      "category": "Google/IA/Youtube",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: google"
+    },
+    "GOOGLE GOOGLE PLAY AP G.CO /HELPPAY": {
+      "category": "Google/IA/Youtube",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: google"
+    },
+    "GOOGLE GOOGLE PLAY APP G. CO/HELPPAY": {
+      "category": "Google/IA/Youtube",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: google"
+    },
+    "GOOGLE GOOGLE PLAY APP IRELAND": {
+      "category": "Google/IA/Youtube",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: google"
+    },
+    "GOOGLE PLAY APPS": {
+      "category": "Google/IA/Youtube",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: google"
+    },
+    "GOOGLE YOUTUBEPREMIUM": {
+      "category": "Google/IA/Youtube",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: google, youtube"
+    },
+    "GOOGLE YOUTUBEPREMIUM G.CO /HELPPAY": {
+      "category": "Google/IA/Youtube",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: google, youtube"
+    },
+    "GOOGLE YOUTUBEPREMIUM INTERNET": {
+      "category": "Google/IA/Youtube",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: google, youtube"
+    },
+    "GUSTAVO P SANT ANA": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "HELDER OLIVEIRA": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Transferência'."
+    },
+    "HIPAY LEVALLOIS-PERRET": {
+      "category": "Serviços",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Serviços'. Há 1 lançamento(s) revisado(s)."
+    },
+    "HTTPS HIPAY.COM LEVALLOIS-PERRET": {
+      "category": "Serviços",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Serviços'. Há 1 lançamento(s) revisado(s)."
+    },
+    "IHERB.COM IHERB.COM": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "IKEA CAIXAS": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Supermercado'. Há 1 lançamento(s) revisado(s)."
+    },
+    "INST PED BOAVISTA LDPORTO": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Saúde'. Há 1 lançamento(s) revisado(s)."
+    },
+    "INSTITUTO M T TERRESTR": {
+      "category": "Documentos PT",
+      "confidence": "medium",
+      "reason": "Regra por termo no estabelecimento: instituto m t terrestr"
+    },
+    "INSTITUTO REGISTOS NOT": {
+      "category": "Documentos PT",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Documentos PT'. Há 1 lançamento(s) revisado(s)."
+    },
+    "JAQUELINE SCHMITZ MORAIS": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "JOANA Z XINPING": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "JOMAZ LDA": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "KIABI": {
+      "category": "Vestuário",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Vestuário'. Há 1 lançamento(s) revisado(s)."
+    },
+    "LATAM.COM EUR LA ES": {
+      "category": "Turismo",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/2 lançamento(s) em 'Turismo'. Há 2 lançamento(s) revisado(s)."
+    },
+    "LEFTIES NORTESHOP SENHO": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "LEV ATM BCP R DR JOAQUIM P": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "LEV ATM MG FATIMA LOJA ALELUIA": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "LEV ATM R. CONDE D HENRIQUE 3": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "LIDL AGRADECE": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: lidl"
+    },
+    "LIDL AGRADECE 579": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: lidl"
+    },
+    "LINDT NORTE SHOPPINGSEN": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "LINDT VILA DO CONDE MODIVAS": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Supermercado'. Há 1 lançamento(s) revisado(s)."
+    },
+    "LIS": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transportes'. Há 1 lançamento(s) revisado(s)."
+    },
+    "LIS PT": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Transportes'. Há 2 lançamento(s) revisado(s)."
+    },
+    "LOJA 94-FERNANDO": {
+      "category": "Vestuário",
+      "confidence": "medium",
+      "reason": "Regra por termo no estabelecimento: loja 94"
+    },
+    "LOJAS PRIMARK -P.": {
+      "category": "Vestuário",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Vestuário'. Há 1 lançamento(s) revisado(s)."
+    },
+    "LOJAS PRIMARK -P. NA OPORTO": {
+      "category": "Vestuário",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Vestuário'."
+    },
+    "LUDIMUSIC TURQUEL": {
+      "category": "Educação",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Educação'. Há 1 lançamento(s) revisado(s)."
+    },
+    "LUSIADAS": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Saúde'. Há 1 lançamento(s) revisado(s)."
+    },
+    "MA COSTA CABRAL": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Outros'. Há 2 lançamento(s) revisado(s)."
+    },
+    "MA LOIOS": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "MA PIRES LIMA": {
+      "category": "Outros",
+      "confidence": "medium",
+      "reason": "Categoria sugerida pela maioria na planilha: 3/3 lançamento(s) em 'Outros'. Há 3 lançamento(s) revisado(s)."
+    },
+    "MAKRO S MAME": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Supermercado'. Há 1 lançamento(s) revisado(s)."
+    },
+    "MANTEIGARIA CLERIGOS": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "MANUEL RUI A NABEIRO CAMPO MAIOR": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Outros'. Há 2 lançamento(s) revisado(s)."
+    },
+    "MARIA BEATRIZ FERNANDEZ CRUZ": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 3/5 lançamento(s) em 'Transferência'."
+    },
+    "MARIA FERNANDA PEREIRA C S C OLIV": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "MASSAS E TEMPEROS": {
+      "category": "Alimentação",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 5/5 lançamento(s) em 'Alimentação'."
+    },
+    "MEDICARE ADC25000000819 PT10113047": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: medicare"
+    },
+    "MEO": {
+      "category": "Telecom",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Telecom'."
+    },
+    "MEO ENERGIA PTLIVE6818ECE6 PT72114550": {
+      "category": "Energia",
+      "confidence": "medium",
+      "reason": "Regra por termo no estabelecimento: energia"
+    },
+    "MEO SA PT73101243": {
+      "category": "Telecom",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 7/7 lançamento(s) em 'Telecom'. Há 7 lançamento(s) revisado(s)."
+    },
+    "MEO SERV DE COMUN E MU": {
+      "category": "Telecom",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: meo serv"
+    },
+    "MERCADONA": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: mercadona"
+    },
+    "MERCADONA ERMESINDE": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: mercadona"
+    },
+    "MERCEARIA JOAOZINHO": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Supermercado'."
+    },
+    "METODOS CAPRICHOSOS": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Outros'. Há 2 lançamento(s) revisado(s)."
+    },
+    "METRO DA TRINDADE": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Transportes'. Há 2 lançamento(s) revisado(s)."
+    },
+    "MINIPRECO": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: minipreco"
+    },
+    "NAIANE SILVA ALMEIDA": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "NATA SWEET NATA LDA SENHORA DA HO": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "NED BARBEARIAS - BOAVI": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "NETFLIX INTERNATIONAL B.V AMSTERDAM": {
+      "category": "Outros",
+      "confidence": "medium",
+      "reason": "Categoria sugerida pela maioria na planilha: 3/3 lançamento(s) em 'Outros'. Há 3 lançamento(s) revisado(s)."
+    },
+    "NETFLIX.COM LOS GATOS": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "NORAUTO CARNAX": {
+      "category": "Automóvel",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Automóvel'. Há 1 lançamento(s) revisado(s)."
+    },
+    "NORAUTO RIO": {
+      "category": "Automóvel",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Automóvel'. Há 2 lançamento(s) revisado(s)."
+    },
+    "NOS E MAIS BOLOS": {
+      "category": "Telecom",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Telecom'."
+    },
+    "NOSOLO ITALIA BELEM": {
+      "category": "Telecom",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Telecom'."
+    },
+    "NOTE TRINDADE": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "NUVEI LIMITED CARCAVELOS": {
+      "category": "Documentos PT",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Documentos PT'. Há 1 lançamento(s) revisado(s)."
+    },
+    "NYX BRISAAREASDESERVICO SAODOMINGOSDE": {
+      "category": "Beleza",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Beleza'. Há 1 lançamento(s) revisado(s)."
+    },
+    "NYX MODELOCONTINENTEHIP": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: continente"
+    },
+    "NYX MODELOCONTINENTEHIPE": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: continente"
+    },
+    "NYX NATIONALTOKENSBVBA": {
+      "category": "Beleza",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Beleza'. Há 1 lançamento(s) revisado(s)."
+    },
+    "OLA ALAMEDA SHOP": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "OLA NORTE SHOPPING SENH": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "OLMAR MEGASTORE": {
+      "category": "Educação",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Educação'. Há 1 lançamento(s) revisado(s)."
+    },
+    "ONDISC LDA": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "OPENAI CHATGPT SUBSCR": {
+      "category": "Google/IA/Youtube",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: openai, chatgpt"
+    },
+    "PA ERMESINDE ERMESINDE": {
+      "category": "Combustível",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Combustível'. Há 1 lançamento(s) revisado(s)."
+    },
+    "PA FABRICA COBRE": {
+      "category": "Crédito",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Crédito'."
+    },
+    "PA MAIA PEDROUCOS MAIA": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "PADARIA": {
+      "category": "Alimentação",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Alimentação'. Há 1 lançamento(s) revisado(s)."
+    },
+    "PAG-ESTADO": {
+      "category": "Impostos e Taxas",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Impostos e Taxas'. Há 1 lançamento(s) revisado(s)."
+    },
+    "PAST CRISTO REI GUIMARAES": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "PASTEIS DE BELEM": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "PAULO ALEXANDRE ANTUNES PEREIRA": {
+      "category": "Alimentação Ovos",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 11/11 lançamento(s) em 'Alimentação Ovos'."
+    },
+    "PAULO HENRIQUE RAMOS DOS SANTOS": {
+      "category": "Arrendamento",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Arrendamento'. Há 2 lançamento(s) revisado(s)."
+    },
+    "PEDRO DOS FRANGOS": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "PEDRO MIGUEL PEREIRA MARTINS": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "PEDRO MIGUEL PINHEIRO GOMES": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "PEPCO 1 PO": {
+      "category": "Vestuário",
+      "confidence": "medium",
+      "reason": "Regra por termo no estabelecimento: pepco"
+    },
+    "PINGO DOCE": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: pingo doce"
+    },
+    "PINGO DOCE CHAO LOUR": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: pingo doce"
+    },
+    "PINGO DOCE CONSTITUI": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: pingo doce"
+    },
+    "PINGO DOCE FATIMA FATIMA": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: pingo doce"
+    },
+    "PINGO DOCE SALGUEIRO": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: pingo doce"
+    },
+    "PINGO DOCE SALGUEIROPOR": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: pingo doce"
+    },
+    "PINGO DOCE ST JUSTA": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: pingo doce"
+    },
+    "POST LAB TRINDADE": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Saúde'. Há 2 lançamento(s) revisado(s)."
+    },
+    "POSTO ILQ": {
+      "category": "Combustível",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Combustível'. Há 1 lançamento(s) revisado(s)."
+    },
+    "PREPLY INC. BROOKLINE": {
+      "category": "Educação",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: preply"
+    },
+    "PRIMARK NORTE SHO": {
+      "category": "Vestuário",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Vestuário'. Há 1 lançamento(s) revisado(s)."
+    },
+    "PRIMARK NORTE SHOPP": {
+      "category": "Vestuário",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Vestuário'."
+    },
+    "PROMOSTOCK": {
+      "category": "Casa",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/4 lançamento(s) em 'Casa'. Há 3 lançamento(s) revisado(s)."
+    },
+    "QUIOSQUE ALAMEDA": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Restaurantes e Cafés'. Há 2 lançamento(s) revisado(s)."
+    },
+    "QUIOSQUE NORTESHOP": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "R JOSE FALCAO 158": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "RAQUEL RODRIGUES OLIVEIRA": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "REGRAS IDENTICAS": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "REST ESPELHO GAUCHO MAT": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "RESTAURANTE CONGA": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: restaurante"
+    },
+    "RNE": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transportes'. Há 1 lançamento(s) revisado(s)."
+    },
+    "RNE - REDE NACIONAL DE": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transportes'. Há 1 lançamento(s) revisado(s)."
+    },
+    "SACO DE DOCES LDA 231-M": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "SCARTEZINI SALVI SENHOR": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "SEF GOLF 1-BARCARENA": {
+      "category": "Documentos PT",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Documentos PT'. Há 1 lançamento(s) revisado(s)."
+    },
+    "SHEIN": {
+      "category": "Compras Online",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: shein"
+    },
+    "SMILE UP V S.A.": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Saúde'. Há 1 lançamento(s) revisado(s)."
+    },
+    "SOCOVIRA SOC. C. V. AREOSA": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "SPAR": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Supermercado'."
+    },
+    "SUPERCOR PARK EXPO": {
+      "category": "Outros",
+      "confidence": "medium",
+      "reason": "Categoria sugerida pela maioria na planilha: 3/3 lançamento(s) em 'Outros'. Há 3 lançamento(s) revisado(s)."
+    },
+    "SUPERMERCADO FROIZ": {
+      "category": "Supermercado",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: froiz"
+    },
+    "TABACARIA CARPE DIEM PO": {
+      "category": "Serviços",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Serviços'. Há 1 lançamento(s) revisado(s)."
+    },
+    "TALHO": {
+      "category": "Açougue",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Supermercado'. Há 1 lançamento(s) revisado(s)."
+    },
+    "TEDI": {
+      "category": "Casa",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Casa'. Há 2 lançamento(s) revisado(s)."
+    },
+    "TEMU.COM": {
+      "category": "Compras Online",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: temu"
+    },
+    "TEMU.COM INTERNET": {
+      "category": "Compras Online",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: temu"
+    },
+    "THE LEMON TREE CAFE": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: cafe"
+    },
+    "TI AMO VILA VI": {
+      "category": "Restaurantes e Cafés",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Restaurantes e Cafés'. Há 1 lançamento(s) revisado(s)."
+    },
+    "TIP CAMPANHA": {
+      "category": "Outros",
+      "confidence": "medium",
+      "reason": "Categoria sugerida pela maioria na planilha: 4/4 lançamento(s) em 'Outros'. Há 4 lançamento(s) revisado(s)."
+    },
+    "TMP ALIADOS": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transportes'."
+    },
+    "TMP COMBATENTES": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 4/4 lançamento(s) em 'Transportes'. Há 4 lançamento(s) revisado(s)."
+    },
+    "TMP TRINDADE": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transportes'."
+    },
+    "TRF. P/O ANDREIA FILIPA SANTOS CORREIA": {
+      "category": "Crédito",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Crédito'."
+    },
+    "TRF. P/O DHAKER HASSINE": {
+      "category": "Crédito",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Crédito'."
+    },
+    "TRF. P/O VICTOR RAMOS SANTOS JUNIOR": {
+      "category": "Crédito",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Crédito'."
+    },
+    "TUTTO ITALIA PEDROSO": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "VIAVERDE": {
+      "category": "Transportes",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: viaverde"
+    },
+    "VICTOR RAMOS SANTOS JUNIOR": {
+      "category": "Transferência",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Transferência'."
+    },
+    "VILA DO CONDE VILADOCONDE": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "VIVAGYM EASYPA EASYPAY-INSTIT": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Saúde'. Há 2 lançamento(s) revisado(s)."
+    },
+    "WELCOME MUSIC UNIPESSOAL LDA": {
+      "category": "Educação",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 3/3 lançamento(s) em 'Educação'. Há 3 lançamento(s) revisado(s)."
+    },
+    "WELLS SAUDE E": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: wells"
+    },
+    "WELLS SAUDE E OPTICA": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: wells"
+    },
+    "WELLS SAUDE E OPTICAPOR": {
+      "category": "Saúde",
+      "confidence": "high",
+      "reason": "Regra por termo no estabelecimento: wells"
+    },
+    "WORTEN ANTAS": {
+      "category": "Tecnologia",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Tecnologia'."
+    },
+    "WORTEN EQUIPAMENTOS LA": {
+      "category": "Tecnologia",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Tecnologia'. Há 1 lançamento(s) revisado(s)."
+    },
+    "WORTEN-EQUIPAMENTOS": {
+      "category": "Tecnologia",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 4/5 lançamento(s) em 'Tecnologia'."
+    },
+    "ZHICONG SHAN": {
+      "category": "Combustível",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Combustível'. Há 2 lançamento(s) revisado(s)."
+    },
+    "ZIPPY KIDSTORE MAR SHOPP": {
+      "category": "Outros",
+      "confidence": "low",
+      "reason": "Categoria sugerida pela maioria na planilha: 1/1 lançamento(s) em 'Outros'. Há 1 lançamento(s) revisado(s)."
+    },
+    "ZURICH SEGUROS PT76101092": {
+      "category": "Seguros",
+      "confidence": "high",
+      "reason": "Categoria sugerida pela maioria na planilha: 2/2 lançamento(s) em 'Seguros'. Há 2 lançamento(s) revisado(s)."
+    }
+  },
+  "decision_rules": [
+    {
+      "if_contains": [
+        "uber eats"
+      ],
+      "category": "Restaurantes e Cafés",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "bolt"
+      ],
+      "category": "Transportes",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "viaverde",
+        "via verde"
+      ],
+      "category": "Transportes",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "continente",
+        "pingo doce",
+        "lidl",
+        "auchan",
+        "mercadona",
+        "minipreco",
+        "minipreço",
+        "froiz",
+        "a super"
+      ],
+      "category": "Supermercado",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "confeitaria",
+        "cafe",
+        "café",
+        "restaurante",
+        "burger",
+        "bk",
+        "telepizza"
+      ],
+      "category": "Restaurantes e Cafés",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "temu",
+        "aliexpress",
+        "amazon",
+        "shein"
+      ],
+      "category": "Compras Online",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "openai",
+        "chatgpt",
+        "google",
+        "youtube"
+      ],
+      "category": "Google/IA/Youtube",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "preply",
+        "udemy"
+      ],
+      "category": "Educação",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "farmacia",
+        "farmácia",
+        "wells",
+        "medicare"
+      ],
+      "category": "Saúde",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "meo serv",
+        "vodafone",
+        "nos comun"
+      ],
+      "category": "Telecom",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "energia",
+        "edp"
+      ],
+      "category": "Energia",
+      "confidence": "medium"
+    },
+    {
+      "if_contains": [
+        "cmpea",
+        "aguas",
+        "águas"
+      ],
+      "category": "Água",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "est servico",
+        "est serviço",
+        "combustivel",
+        "combustível"
+      ],
+      "category": "Combustível",
+      "confidence": "high"
+    },
+    {
+      "if_contains": [
+        "instituto m t terrestr",
+        "imt",
+        "irn"
+      ],
+      "category": "Documentos PT",
+      "confidence": "medium"
+    },
+    {
+      "if_contains": [
+        "pepco",
+        "loja 94"
+      ],
+      "category": "Vestuário",
+      "confidence": "medium"
+    },
+    {
+      "if_contains": [
+        "dinheiro adicionado",
+        "transferencia",
+        "transferência",
+        "mb way"
+      ],
+      "category": "Transferência",
+      "confidence": "medium"
+    }
+  ]
+}

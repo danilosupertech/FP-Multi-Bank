@@ -1,0 +1,1391 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "keyword": "transação por cartão de 16 05 eur emitida por bk15303 alameda shop 4350 414 port",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:51:45Z",
+      "updated_at": "2026-05-27T22:51:45Z"
+    },
+    {
+      "keyword": "transação por cartão de 2 29 eur emitida por google google play ap g co helppay",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:49:14Z",
+      "updated_at": "2026-05-27T22:49:14Z"
+    },
+    {
+      "keyword": "transação por cartão de 21 99 eur emitida por google google one g co helppay",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:47:06Z",
+      "updated_at": "2026-05-27T22:47:06Z"
+    },
+    {
+      "keyword": "transação por cartão de 29 99 eur emitida por google google play app ireland",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:49:14Z",
+      "updated_at": "2026-05-27T22:49:14Z"
+    },
+    {
+      "keyword": "transação por cartão de 18 70 eur emitida por openai chatgpt subscr dublin",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:46:05Z",
+      "updated_at": "2026-05-27T22:46:05Z"
+    },
+    {
+      "keyword": "transação por cartão de 1 00 eur emitida por 2650 tedi rio tinto rio tinto",
+      "category": "Casa",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:49:14Z",
+      "updated_at": "2026-05-27T22:49:14Z"
+    },
+    {
+      "keyword": "transação por cartão de 7 80 eur emitida por lindt vila do conde modivas",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:54:16Z",
+      "updated_at": "2026-05-27T22:54:16Z"
+    },
+    {
+      "keyword": "transação por cartão de 21 99 eur emitida por google google one ireland",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:46:27Z",
+      "updated_at": "2026-05-27T22:46:27Z"
+    },
+    {
+      "keyword": "transação por cartão de 4 20 eur emitida por manteigaria clerigos porto",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:51:44Z",
+      "updated_at": "2026-05-27T22:51:44Z"
+    },
+    {
+      "keyword": "transação por cartão de 18 69 eur emitida por action 1408 vila nova de",
+      "category": "Casa",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:54:16Z",
+      "updated_at": "2026-05-27T22:54:16Z"
+    },
+    {
+      "keyword": "transação por cartão de 20 65 eur emitida por pasteis de belem lisboa",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:49:14Z",
+      "updated_at": "2026-05-27T22:49:14Z"
+    },
+    {
+      "keyword": "transação por cartão de 7 50 eur emitida por freguesia paranhos porto",
+      "category": "Impostos e Taxas",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:51:44Z",
+      "updated_at": "2026-05-27T22:51:44Z"
+    },
+    {
+      "keyword": "transação por cartão de 1 99 eur emitida por google play apps dublin",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:47:44Z",
+      "updated_at": "2026-05-27T22:47:44Z"
+    },
+    {
+      "keyword": "transação por cartão de 7 50 eur emitida por metro da trindade porto",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:51:45Z",
+      "updated_at": "2026-05-27T22:51:45Z"
+    },
+    {
+      "keyword": "transação por cartão de 25 09 eur emitida por pa ermesinde ermesinde",
+      "category": "Combustível",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:54:16Z",
+      "updated_at": "2026-05-27T22:54:16Z"
+    },
+    {
+      "keyword": "transação por cartão de 9 99 eur emitida por google youtubepremium",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:45:14Z",
+      "updated_at": "2026-05-27T22:45:14Z"
+    },
+    {
+      "keyword": "transação por cartão de 64 27 eur emitida por smile up v s a porto",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:51:45Z",
+      "updated_at": "2026-05-27T22:51:45Z"
+    },
+    {
+      "keyword": "transação por cartão de 4 84 eur emitida por preply inc brookline",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:51:45Z",
+      "updated_at": "2026-05-27T22:51:45Z"
+    },
+    {
+      "keyword": "transação por cartão de 0 85 eur emitida por minipreco porto",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T22:49:14Z",
+      "updated_at": "2026-05-27T22:49:14Z"
+    },
+    {
+      "keyword": "compra 0921 confeitaria tamisa port contactless",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "compra 0921 quiosque alameda 4350 4 contactless",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "compra 0921 celeiro vita antas port contactless",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "compra 0921 decathlon porto ortlpor contactless",
+      "category": "Vestuário",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:06:49Z",
+      "updated_at": "2026-05-27T15:06:49Z"
+    },
+    {
+      "keyword": "compra 0921 rest espelho gaucho mat contactless",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:14:40Z",
+      "updated_at": "2026-05-27T16:14:40Z"
+    },
+    {
+      "keyword": "compra 0921 post lab trindade porto contactless",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "compra 0921 cafe metro 4000 539 por contactless",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "compra 0921 ola norte shopping senh contactless",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "compra 0921 saco de doces lda 231 m contactless",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:23:25Z",
+      "updated_at": "2026-05-27T16:23:25Z"
+    },
+    {
+      "keyword": "pagserv instituto registos not 11941 386197954",
+      "category": "Documentos PT",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "compra 0921 alameda shopping braga contactless",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "pagserv camara municipal do po 24397 162393362",
+      "category": "Alimentação Escolar",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:31:55Z",
+      "updated_at": "2026-05-27T15:31:55Z"
+    },
+    {
+      "keyword": "trf p ana bela brandao freire falcao ramos dos",
+      "category": "Arrendamento",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:14:40Z",
+      "updated_at": "2026-05-27T16:14:40Z"
+    },
+    {
+      "keyword": "compra 0921 creperia geladaria dou contactless",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:14:40Z",
+      "updated_at": "2026-05-27T16:14:40Z"
+    },
+    {
+      "keyword": "compra 0921 coliseu do porto porto contactless",
+      "category": "Turismo",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:34:50Z",
+      "updated_at": "2026-05-27T16:34:50Z"
+    },
+    {
+      "keyword": "compra 0921 goms cortes e cores 4000 225 porto",
+      "category": "Beleza",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:34:50Z",
+      "updated_at": "2026-05-27T16:34:50Z"
+    },
+    {
+      "keyword": "compra 0921 lojas primark porto p contactless",
+      "category": "Vestuário",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "compra 0921 olmar megastore porto contactless",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:23:25Z",
+      "updated_at": "2026-05-27T16:23:25Z"
+    },
+    {
+      "keyword": "dd vivagym easypa 51417008595 easypay instit",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "pagserv rne rede nacional de 50338 214473132",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:14:40Z",
+      "updated_at": "2026-05-27T16:14:40Z"
+    },
+    {
+      "keyword": "compra 0921 lis 8321 lisboa pt contactless",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:21:13Z",
+      "updated_at": "2026-05-27T16:21:13Z"
+    },
+    {
+      "keyword": "compra 0921 lis 8482 lisboa pt contactless",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:21:13Z",
+      "updated_at": "2026-05-27T16:21:13Z"
+    },
+    {
+      "keyword": "ana bela brandao freire falcao ramos dos",
+      "category": "Arrendamento",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:14:40Z",
+      "updated_at": "2026-05-27T16:14:40Z"
+    },
+    {
+      "keyword": "trf p paulo henrique ramos dos santos",
+      "category": "Arrendamento",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:14:40Z",
+      "updated_at": "2026-05-27T16:14:40Z"
+    },
+    {
+      "keyword": "compra 0921 gab cert serv irn lobraga",
+      "category": "Impostos e Taxas",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "compra 0921 inst ped boavista ldporto",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:32:06Z",
+      "updated_at": "2026-05-27T16:32:06Z"
+    },
+    {
+      "keyword": "meo energia ptlive6818ece6 pt72114550",
+      "category": "Telecom",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "nyx brisaareasdeservico saodomingosde",
+      "category": "Beleza",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:02:20Z",
+      "updated_at": "2026-05-27T22:02:20Z"
+    },
+    {
+      "keyword": "compra 0921 encounter english porto",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:16:32Z",
+      "updated_at": "2026-05-27T16:16:32Z"
+    },
+    {
+      "keyword": "compra 0921 divan porto contactless",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:23:25Z",
+      "updated_at": "2026-05-27T16:23:25Z"
+    },
+    {
+      "keyword": "trf p welcome music unipessoal lda",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:32:34Z",
+      "updated_at": "2026-05-27T15:32:34Z"
+    },
+    {
+      "keyword": "google google play ap g co helppay",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:49:14Z",
+      "updated_at": "2026-05-27T22:49:14Z"
+    },
+    {
+      "keyword": "https hipay com levallois perret",
+      "category": "Serviços",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 9,
+      "created_at": "2026-05-27T15:04:27Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "paulo henrique ramos dos santos",
+      "category": "Arrendamento",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:14:40Z",
+      "updated_at": "2026-05-27T16:14:40Z"
+    },
+    {
+      "keyword": "est servico repsol e1307 antas",
+      "category": "Combustível",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "est servico petroazul com serv",
+      "category": "Combustível",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "est servico bp mealhada poente",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:13Z",
+      "updated_at": "2026-05-27T15:30:13Z"
+    },
+    {
+      "keyword": "google google one g co helppay",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:47:06Z",
+      "updated_at": "2026-05-27T22:47:06Z"
+    },
+    {
+      "keyword": "google google play app ireland",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:49:14Z",
+      "updated_at": "2026-05-27T22:49:14Z"
+    },
+    {
+      "keyword": "vivagym easypa easypay instit",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "trf p brendan snyder unip lda",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:31:55Z",
+      "updated_at": "2026-05-27T15:31:55Z"
+    },
+    {
+      "keyword": "welcome music unipessoal lda",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:32:34Z",
+      "updated_at": "2026-05-27T15:32:34Z"
+    },
+    {
+      "keyword": "compra 0921 posto ilq porto",
+      "category": "Combustível",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:06:28Z",
+      "updated_at": "2026-05-27T15:06:28Z"
+    },
+    {
+      "keyword": "lindt vila do conde modivas",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:54:16Z",
+      "updated_at": "2026-05-27T22:54:16Z"
+    },
+    {
+      "keyword": "gab cert serv irn lobraga",
+      "category": "Impostos e Taxas",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "inst ped boavista ldporto",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:32:06Z",
+      "updated_at": "2026-05-27T16:32:06Z"
+    },
+    {
+      "keyword": "zurich seguros pt76101092",
+      "category": "Seguros",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "google google one ireland",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:46:27Z",
+      "updated_at": "2026-05-27T22:46:27Z"
+    },
+    {
+      "keyword": "nuvei limited carcavelos",
+      "category": "Documentos PT",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T14:53:42Z",
+      "updated_at": "2026-05-27T14:53:42Z"
+    },
+    {
+      "keyword": "lefties norteshop senho",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "lindt norte shoppingsen",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "brendan snyder unip lda",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:31:55Z",
+      "updated_at": "2026-05-27T15:31:55Z"
+    },
+    {
+      "keyword": "rest espelho gaucho mat",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:14:40Z",
+      "updated_at": "2026-05-27T16:14:40Z"
+    },
+    {
+      "keyword": "compra 0921 shein paris",
+      "category": "Compras Online",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "ola norte shopping senh",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "saco de doces lda 231 m",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:23:25Z",
+      "updated_at": "2026-05-27T16:23:25Z"
+    },
+    {
+      "keyword": "eupago ondi eupago inst",
+      "category": "Serviços",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:25:10Z",
+      "updated_at": "2026-05-27T16:25:10Z"
+    },
+    {
+      "keyword": "tabacaria carpe diem po",
+      "category": "Serviços",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:25:10Z",
+      "updated_at": "2026-05-27T16:25:10Z"
+    },
+    {
+      "keyword": "instituto m t terrestr",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T14:53:42Z",
+      "updated_at": "2026-05-27T14:53:42Z"
+    },
+    {
+      "keyword": "instituto registos not",
+      "category": "Documentos PT",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "hipay levallois perret",
+      "category": "Serviços",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "nyx nationaltokensbvba",
+      "category": "Beleza",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "camara municipal do po",
+      "category": "Alimentação Escolar",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:31:55Z",
+      "updated_at": "2026-05-27T15:31:55Z"
+    },
+    {
+      "keyword": "creperia geladaria dou",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:14:40Z",
+      "updated_at": "2026-05-27T16:14:40Z"
+    },
+    {
+      "keyword": "compra 0921 rne lisboa",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:15:21Z",
+      "updated_at": "2026-05-27T16:15:21Z"
+    },
+    {
+      "keyword": "trf p escola de ingles",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T16:16:32Z",
+      "updated_at": "2026-05-27T16:16:32Z"
+    },
+    {
+      "keyword": "pa ermesinde ermesinde",
+      "category": "Combustível",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:54:16Z",
+      "updated_at": "2026-05-27T22:54:16Z"
+    },
+    {
+      "keyword": "don pepe taqueria ger",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "google youtubepremium",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:45:14Z",
+      "updated_at": "2026-05-27T22:45:14Z"
+    },
+    {
+      "keyword": "openai chatgpt subscr",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:46:05Z",
+      "updated_at": "2026-05-27T22:46:05Z"
+    },
+    {
+      "keyword": "rne rede nacional de",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:14:40Z",
+      "updated_at": "2026-05-27T16:14:40Z"
+    },
+    {
+      "keyword": "sef golf 1 barcarena",
+      "category": "Documentos PT",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:25:10Z",
+      "updated_at": "2026-05-27T16:25:10Z"
+    },
+    {
+      "keyword": "pingo doce salgueiro",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "pingo doce constitui",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "confeitaria primazia",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:02:20Z",
+      "updated_at": "2026-05-27T22:02:20Z"
+    },
+    {
+      "keyword": "manteigaria clerigos",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:51:44Z",
+      "updated_at": "2026-05-27T22:51:44Z"
+    },
+    {
+      "keyword": "bk15303 alameda shop",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:51:44Z",
+      "updated_at": "2026-05-27T22:51:45Z"
+    },
+    {
+      "keyword": "preply inc brookline",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:51:45Z",
+      "updated_at": "2026-05-27T22:51:45Z"
+    },
+    {
+      "keyword": "latam com eur la es",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "goms cortes e cores",
+      "category": "Beleza",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:34:50Z",
+      "updated_at": "2026-05-27T16:34:50Z"
+    },
+    {
+      "keyword": "the lemon tree cafe",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:02:20Z",
+      "updated_at": "2026-05-27T22:02:20Z"
+    },
+    {
+      "keyword": "action vila nova de",
+      "category": "Casa",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:54:16Z",
+      "updated_at": "2026-05-27T22:54:16Z"
+    },
+    {
+      "keyword": "confeitaria tamisa",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "celeiro vita antas",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "fundacao sta maria",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 1,
+      "created_at": "2026-05-27T15:05:55Z",
+      "updated_at": "2026-05-27T15:05:55Z"
+    },
+    {
+      "keyword": "quiosque norteshop",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "confeitaria oporto",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:25:10Z",
+      "updated_at": "2026-05-27T16:25:10Z"
+    },
+    {
+      "keyword": "bk32794 cc trinity",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:25:10Z",
+      "updated_at": "2026-05-27T16:25:10Z"
+    },
+    {
+      "keyword": "continente bom dia",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 12,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "freguesia paranhos",
+      "category": "Impostos e Taxas",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:51:44Z",
+      "updated_at": "2026-05-27T22:51:44Z"
+    },
+    {
+      "keyword": "decathlon ortlpor",
+      "category": "Vestuário",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:06:49Z",
+      "updated_at": "2026-05-27T15:06:49Z"
+    },
+    {
+      "keyword": "ludimusic turquel",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "restaurante conga",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "primark norte sho",
+      "category": "Vestuário",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:13Z"
+    },
+    {
+      "keyword": "encounter english",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:16:32Z",
+      "updated_at": "2026-05-27T16:16:32Z"
+    },
+    {
+      "keyword": "post lab trindade",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "auto arca de agua",
+      "category": "Água",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "meo sa pt73101243",
+      "category": "Telecom",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "metro da trindade",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:51:45Z",
+      "updated_at": "2026-05-27T22:51:45Z"
+    },
+    {
+      "keyword": "quiosque alameda",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "alameda shopping",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:03:37Z",
+      "updated_at": "2026-05-27T15:03:37Z"
+    },
+    {
+      "keyword": "escola de ingles",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:16:32Z",
+      "updated_at": "2026-05-27T16:16:32Z"
+    },
+    {
+      "keyword": "e um restaurante",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:02:20Z",
+      "updated_at": "2026-05-27T22:02:20Z"
+    },
+    {
+      "keyword": "google play apps",
+      "category": "Google/IA/Youtube",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:47:44Z",
+      "updated_at": "2026-05-27T22:47:44Z"
+    },
+    {
+      "keyword": "pasteis de belem",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:49:14Z",
+      "updated_at": "2026-05-27T22:49:14Z"
+    },
+    {
+      "keyword": "lojas primark p",
+      "category": "Vestuário",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "olmar megastore",
+      "category": "Educação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:23:25Z",
+      "updated_at": "2026-05-27T16:23:25Z"
+    },
+    {
+      "keyword": "tmp combatentes",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "ti amo vila vi",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:13Z",
+      "updated_at": "2026-05-27T15:30:13Z"
+    },
+    {
+      "keyword": "norauto carnax",
+      "category": "Automóvel",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:25:10Z",
+      "updated_at": "2026-05-27T16:25:10Z"
+    },
+    {
+      "keyword": "auchan rio tin",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "decathlon ortl",
+      "category": "Vestuário",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:02:19Z",
+      "updated_at": "2026-05-27T22:02:20Z"
+    },
+    {
+      "keyword": "smile up v s a",
+      "category": "Saúde",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:51:45Z",
+      "updated_at": "2026-05-27T22:51:45Z"
+    },
+    {
+      "keyword": "lidl agradece",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 8,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "talho pacheco",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "zhicong shan",
+      "category": "Combustível",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "norauto rio",
+      "category": "Automóvel",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T22:02:20Z",
+      "updated_at": "2026-05-27T22:02:20Z"
+    },
+    {
+      "keyword": "cafe kioske",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:02:20Z",
+      "updated_at": "2026-05-27T22:02:20Z"
+    },
+    {
+      "keyword": "promostock",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T15:30:12Z",
+      "updated_at": "2026-05-27T15:30:12Z"
+    },
+    {
+      "keyword": "pepco 1 po",
+      "category": "Vestuário",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:13Z",
+      "updated_at": "2026-05-27T15:30:13Z"
+    },
+    {
+      "keyword": "pag estado",
+      "category": "Impostos e Taxas",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:13Z",
+      "updated_at": "2026-05-27T15:30:13Z"
+    },
+    {
+      "keyword": "cafe metro",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "coliseu do",
+      "category": "Turismo",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:34:50Z",
+      "updated_at": "2026-05-27T16:34:50Z"
+    },
+    {
+      "keyword": "posto ilq",
+      "category": "Combustível",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:06:28Z",
+      "updated_at": "2026-05-27T15:06:28Z"
+    },
+    {
+      "keyword": "minipreco",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:49:14Z",
+      "updated_at": "2026-05-27T22:49:14Z"
+    },
+    {
+      "keyword": "temu com",
+      "category": "Compras Online",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "padaria",
+      "category": "Alimentação",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T15:30:13Z",
+      "updated_at": "2026-05-27T15:30:13Z"
+    },
+    {
+      "keyword": "lis pt",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T16:21:13Z",
+      "updated_at": "2026-05-27T16:21:13Z"
+    },
+    {
+      "keyword": "auchan",
+      "category": "Supermercado",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 6,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T21:59:08Z"
+    },
+    {
+      "keyword": "shein",
+      "category": "Compras Online",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:18:16Z",
+      "updated_at": "2026-05-27T16:18:16Z"
+    },
+    {
+      "keyword": "divan",
+      "category": "Restaurantes e Cafés",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:23:25Z",
+      "updated_at": "2026-05-27T16:23:25Z"
+    },
+    {
+      "keyword": "kiabi",
+      "category": "Vestuário",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:02:20Z",
+      "updated_at": "2026-05-27T22:02:20Z"
+    },
+    {
+      "keyword": "tedi",
+      "category": "Casa",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 4,
+      "created_at": "2026-05-27T21:59:08Z",
+      "updated_at": "2026-05-27T22:49:14Z"
+    },
+    {
+      "keyword": "rne",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T16:15:21Z",
+      "updated_at": "2026-05-27T16:15:21Z"
+    },
+    {
+      "keyword": "lis",
+      "category": "Transportes",
+      "source": "dashboard_confirmed",
+      "confidence": 1.0,
+      "times_confirmed": 2,
+      "created_at": "2026-05-27T22:02:20Z",
+      "updated_at": "2026-05-27T22:02:20Z"
+    }
+  ]
+}

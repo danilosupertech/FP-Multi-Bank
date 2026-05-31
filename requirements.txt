@@ -1,0 +1,6 @@
+pdfplumber
+pandas
+streamlit
+matplotlib
+numpy
+dspy
